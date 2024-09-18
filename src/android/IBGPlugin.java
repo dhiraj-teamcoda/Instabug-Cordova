@@ -30,7 +30,7 @@ import com.instabug.library.invocation.util.InstabugVideoRecordingButtonPosition
 import com.instabug.library.logging.InstabugLog;
 import com.instabug.library.model.Report;
 import com.instabug.library.ui.onboarding.WelcomeMessage;
-import com.instabug.library.visualusersteps.State;
+//import com.instabug.library.visualusersteps.State;
 import com.instabug.survey.callbacks.*;
 import com.instabug.survey.Survey;
 import com.instabug.survey.Surveys;
@@ -794,7 +794,7 @@ public class IBGPlugin extends CordovaPlugin {
     public void setDebugEnabled(final CallbackContext callbackContext, JSONArray args) {
         Boolean isDebugEnabled = args.optBoolean(0);
         try {
-            Instabug.setDebugEnabled(isDebugEnabled);
+            // Instabug.setDebugEnabled(isDebugEnabled);
             callbackContext.success();
         } catch (IllegalStateException e) {
             callbackContext.error(errorMsg);
@@ -1090,9 +1090,9 @@ public class IBGPlugin extends CordovaPlugin {
      */
     public void setReproStepsMode(final CallbackContext callbackContext, JSONArray args) {
         try {
-            final String reproStepsMode = args.optString(0);
-            final State parsedMode = ArgsRegistry.reproStepsModes.get(reproStepsMode);
-            Instabug.setReproStepsState(parsedMode);
+            // final String reproStepsMode = args.optString(0);
+            // final State parsedMode = ArgsRegistry.reproStepsModes.get(reproStepsMode);
+            // Instabug.setReproStepsState(parsedMode);
             callbackContext.success();
         } catch (IllegalStateException e) {
             callbackContext.error(errorMsg);
