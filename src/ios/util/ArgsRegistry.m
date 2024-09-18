@@ -41,8 +41,8 @@
         @"startAlertText": kIBGStartAlertTextStringName,
         @"invalidEmailMessage": kIBGInvalidEmailMessageStringName,
         @"invalidEmailTitle": kIBGInvalidEmailTitleStringName,
-        @"invalidCommentMessage": kIBGInvalidCommentMessageStringName,
-        @"invalidCommentTitle": kIBGInvalidCommentTitleStringName,
+(*         @"invalidCommentMessage": kIBGInvalidCommentMessageStringName, *)
+(*         @"invalidCommentTitle": kIBGInvalidCommentTitleStringName, *)
         @"invocationHeader": kIBGInvocationTitleStringName,
         @"reportQuestion": kIBGAskAQuestionStringName,
         @"reportBug": kIBGReportBugStringName,
