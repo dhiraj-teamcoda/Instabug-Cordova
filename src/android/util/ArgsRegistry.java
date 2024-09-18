@@ -7,7 +7,7 @@ import com.instabug.library.InstabugCustomTextPlaceHolder.Key;
 import com.instabug.library.invocation.util.InstabugFloatingButtonEdge;
 import com.instabug.library.invocation.util.InstabugVideoRecordingButtonPosition;
 import com.instabug.library.ui.onboarding.WelcomeMessage;
-import com.instabug.library.visualusersteps.State;
+//import com.instabug.library.visualusersteps.State;
 import com.instabug.library.internal.module.InstabugLocale;
 
 import java.util.ArrayList;
@@ -120,11 +120,11 @@ public class ArgsRegistry {
         put("insufficientContentMessage", Key.COMMENT_FIELD_INSUFFICIENT_CONTENT);
     }};
 
-    public static final ArgsMap<State> reproStepsModes = new ArgsMap<State>() {{
-        put("enabled", State.ENABLED);
-        put("disabled", State.DISABLED);
-        put("enabledWithNoScreenshots", State.ENABLED_WITH_NO_SCREENSHOTS);
-    }};
+    // public static final ArgsMap<State> reproStepsModes = new ArgsMap<State>() {{
+    //     put("enabled", State.ENABLED);
+    //     put("disabled", State.DISABLED);
+    //     put("enabledWithNoScreenshots", State.ENABLED_WITH_NO_SCREENSHOTS);
+    // }};
 
     public static final ArgsMap<InstabugLocale> locales = new ArgsMap<InstabugLocale>() {{
         put("arabic", InstabugLocale.ARABIC);
